@@ -1,0 +1,67 @@
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Windows Form Designer files (caso gere backups)
+*.Designer.cs~
+
+# Visual Studio files
+.vscode/
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+project.lock.json
+project.assets.json
+
+# DotCover
+*.dotCover
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swn
+*.swo
+
+# Publish folder
+publish/
+
+# Others
+TestResults/
+*.dbmdl
+*.pdb
+*.cache
+*.sqlite
+
+# Environment files
+.env
+.env.*
+
+# Thumbs.db (Windows)
+Thumbs.db
+ehthumbs.db
