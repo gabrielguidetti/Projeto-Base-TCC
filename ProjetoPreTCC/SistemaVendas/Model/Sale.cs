@@ -22,5 +22,10 @@ namespace SistemaVendas
             this.Amount = amout;
             this.ProductName = productName;
         }
+
+        public Sale(long id)
+        {
+            this.Id = id;
+        }
     }
 }

@@ -7,7 +7,7 @@ namespace SistemaVendas
 {
     public partial class FormMain : Form
     {
-        private IMemory _memory;
+        private readonly IMemory _memory;
 
         public FormMain()
         {
@@ -31,7 +31,7 @@ namespace SistemaVendas
 
         private void BtnAddSale_Click(object sender, System.EventArgs e)
         {
-            new FormEditorFieldsSale().ShowDialog();
+            new FormEditorFieldsSale(_memory).ShowDialog();
         }
     }
 }

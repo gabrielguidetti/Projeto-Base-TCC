@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 
 namespace SistemaVendas.Memory.Interface
 {
     public interface IMemory
     {
         BindingList<Sale> GetSales();
+        long GetNewId();
+        void Add(Sale sale);
     }
 }

@@ -10,5 +10,10 @@ namespace SistemaVendas.Util
             if (MessageBox.Show(text, title, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 function();
         }
+
+        public static void ErrorMessageBox(string text, string title)
+        {
+            MessageBox.Show(text, title, MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
     }
 }
